@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"
+
+<head>
+  <meta charset="utf-8"
+  <title>my grid page</title>
+  <style>
+  html{
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+
+  <div class="container">
+  <div class="header"></div>
+  <div class="side-right"></div>
+  <div class="side-left"></div>
+  <div class="center"></div>
+  <div class="jfnskjafnsaknfkjasnkas"></div>
+  <div class="kjfefbesjfefe"></div>
+  <div class="yeah"></div>
+  <div class="yeahh"></div>
+  <div class="bottom"></div>
+</div>
+
+.container {  display: grid;
+grid-template-columns: 1.1fr 2.6fr 1fr;
+grid-template-rows: 0.6fr 0.4fr 2fr;
+gap: 10px 10px;
+grid-auto-flow: row;
+grid-template-areas:
+"yeahh header yeah"
+"side-left center side-right"
+"kjfefbesjfefe bottom jfnskjafnsaknfkjasnkas";
+}
+
+.header { grid-area: header; }
+
+.side-right { grid-area: side-right; }
+
+.side-left { grid-area: side-left; }
+
+.center { grid-area: center; }
+
+.jfnskjafnsaknfkjasnkas { grid-area: jfnskjafnsaknfkjasnkas; }
+
+.kjfefbesjfefe { grid-area: kjfefbesjfefe; }
+
+.yeah { grid-area: yeah; }
+
+.yeahh { grid-area: yeahh; }
+
+.bottom { grid-area: bottom; }
