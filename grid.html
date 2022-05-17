@@ -15,17 +15,6 @@
     box-sizing: inherit;
   }
 
-  <div class="container">
-  <div class="header"></div>
-  <div class="side-right"></div>
-  <div class="side-left"></div>
-  <div class="center"></div>
-  <div class="jfnskjafnsaknfkjasnkas"></div>
-  <div class="kjfefbesjfefe"></div>
-  <div class="yeah"></div>
-  <div class="yeahh"></div>
-  <div class="bottom"></div>
-</div>
 
 .container {  display: grid;
 grid-template-columns: 1.1fr 2.6fr 1fr;
@@ -38,20 +27,55 @@ grid-template-areas:
 "kjfefbesjfefe bottom jfnskjafnsaknfkjasnkas";
 }
 
-.header { grid-area: header; }
+.header { grid-area: header;
+background: pink;}
 
-.side-right { grid-area: side-right; }
+.side-right { grid-area: side-right;
+background: pink;}
 
-.side-left { grid-area: side-left; }
+.side-left { grid-area: side-left;
+background: pink;}
 
-.center { grid-area: center; }
+.center { grid-area: center;
+background:pink;}
 
-.jfnskjafnsaknfkjasnkas { grid-area: jfnskjafnsaknfkjasnkas; }
+.jfnskjafnsaknfkjasnkas { grid-area: jfnskjafnsaknfkjasnkas;
+background: pink;}
 
-.kjfefbesjfefe { grid-area: kjfefbesjfefe; }
+.kjfefbesjfefe { grid-area: kjfefbesjfefe;
+background: pink;}
 
-.yeah { grid-area: yeah; }
+.yeah { grid-area: yeah;
+background:pink;}
 
-.yeahh { grid-area: yeahh; }
+.yeahh { grid-area: yeahh;
+background: pink;}
 
-.bottom { grid-area: bottom; }
+.bottom { grid-area: bottom;
+background: pink;}
+</style>
+</head>
+
+<body>
+  <div class="container">
+  <div class="header">
+  <h1>header</h1></div>
+  <div class="side-right">
+  <h1>side right</h1></div>
+  <div class="side-left">
+  <h1>side left</h1></div>
+  <div class="center">
+  <h1>center</h1></div>
+  <div class="jfnskjafnsaknfkjasnkas">
+  <h1>content</h1></div>
+  <div class="kjfefbesjfefe">
+  <h1>content</h1></div>
+  <div class="yeah">
+  <h1>hi</h1></div>
+  <div class="yeahh">
+  <h1>hi</h1></div>
+  <div class="bottom">
+  <h1>bottom</h1></div>
+</div>
+</body>
+</html>
